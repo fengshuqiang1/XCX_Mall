@@ -1,0 +1,6 @@
+page{
+  padding-top: 40rpx;
+}
+button{
+  width: 80%;
+}

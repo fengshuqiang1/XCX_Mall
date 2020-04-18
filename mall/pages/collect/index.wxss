@@ -1,0 +1,45 @@
+page{
+  background-color: #f2f4f5;
+}
+.filter_container{
+  display: flex;
+  padding: 10rpx;
+  background-color: #f2f4f5;
+}
+.filter_container view{
+  border: 1px solid #ccc;
+  padding: 10rpx;
+  margin-left: 20rpx;
+  background-color: #fff;
+}
+.filter_container view:first-child{
+  border-color: red;
+}
+/* 收藏商品列表 */
+.collect_item{
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+.collect_img{
+  flex: 1;
+}
+.collect_img image{
+  width: 100%;
+}
+.collect_info{
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20rpx;
+}
+.collect_name{
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.collect_price{
+  color: var(--themeColor);
+}

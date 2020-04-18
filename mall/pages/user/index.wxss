@@ -1,0 +1,122 @@
+page{
+  background-color: #edece8;
+}
+/* 头部头像信息 */
+.user_info_wrap{
+  height: 45vh;
+  position: relative;
+}
+.user_info_bg{
+  width: 100%;
+  height: 45vh;
+  filter: blur(10rpx);
+}
+.user_info{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user_info_img{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_name{
+  font-size: 32rpx;
+  color: #000;
+  margin-top: 100rpx;
+  font-weight: 600;
+}
+.user_info_login{
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  height: 80rpx;
+  width: 200rpx;
+  border-radius: 10rpx;
+  border: 1px solid green;
+  line-height: 80rpx;
+  text-align: center;
+  font-weight: 600;
+}
+/* 订单部分 */
+/* 用户历史 */
+.order_container{
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+  top: -60rpx;
+}
+.history_container{
+  display: flex;
+  background-color: #fff;
+}
+.history_link{
+  flex: 1;
+  padding: 10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.history_num{
+  color: var(--themeColor);
+}
+/* 我的订单 */
+.order{
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.order_title{
+  padding: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+.order_info{
+  display: flex;
+}
+.order_link{
+  flex: 1;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.iconfont{
+  color: var(--themeColor);
+}
+/* 收货地址管理 */
+.address{
+  padding: 20rpx;
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+/* 客服反馈 *//* 应用推荐 */
+.contact{
+  margin-top: 20rpx;
+}
+.kefu,.feedback,.about_us,.recommend{
+  padding: 20rpx;
+  background-color: #fff;
+}
+.feedback,.about_us{
+  margin-top: 5rpx;
+  position: relative;
+}
+.feedback button{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.kefu{
+  display: flex;
+  justify-content: space-between;
+}
+.recommend{
+  margin-top: 20rpx;
+}
+
